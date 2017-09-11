@@ -46,6 +46,7 @@ public class VirtualPet {
 	void tick() {
 		hunger -= 2;
 		thirst += 2;
+
 		waste += 2;
 		boredom += 2;
 	}
